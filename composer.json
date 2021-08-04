@@ -1,0 +1,16 @@
+{
+    "require": {
+        "pimple/pimple": "^3.4",
+        "ext-json": "*",
+        "ext-iconv": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "YOU_PLUGIN\\": "includes",
+            "YOU_PLUGIN\\Processors\\": "processors"
+        },
+        "files": [
+            "includes/helpers.php"
+        ]
+    }
+}
